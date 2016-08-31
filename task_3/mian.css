@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 20px;
+}
+
+.team_logo, .member_logo{
+	width: 80px;
+	height: 80px;
+	background-color: #f65;
+}
+
+.team_logo {
+	float: left;
+}
+
+.team_name {
+	float: left;
+}
+
+div {
+	border: 1px solid #999;
+}
+
+.container {
+	background-color: #eee;
+	overflow: hidden;
+}
+
+.team_left {
+	float: left;
+	width: 200px;
+}
+
+.team_member {
+	float: right;
+	width: 120px;
+}
+
+.team_info {
+	margin-left: 280px;
+	margin-right: 200px;
+}
+
+.clearfix: before,
+.clearfix: after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}

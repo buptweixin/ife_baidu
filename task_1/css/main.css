@@ -1,0 +1,74 @@
+body {
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+}
+
+header {
+	background: #efe;
+	margin: 20px;
+	padding: 10px;
+}
+
+.wrapper {
+	
+	margin: 0 auto;
+	width: 92em;
+	max-width: 93%;
+	text-align: left;
+
+}
+
+.article, .images {
+	background: white;
+	
+	padding: 20px;
+}
+
+.container {
+	width: 60%;
+	display: inline;
+	float: left;
+	margin-right: 2%;
+	padding: 2%;
+
+}
+
+div {
+	border: 1px dotted #000;
+}
+
+.sidebar {
+	width: 25%;
+	float: right;
+	display: inline;
+	background-color: white;
+	margin: 2%;
+	
+	overflow: hidden;
+}
+
+img {
+	width: 80px;
+	max-width: 100px;
+}
+
+.footer {
+	width: 100%;
+	display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: ".";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
