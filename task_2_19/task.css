@@ -1,0 +1,22 @@
+.in,
+.out {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#nums {
+    margin-top: 3px;
+}
+
+.num {
+    background-color: red;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
